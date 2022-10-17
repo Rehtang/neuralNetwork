@@ -40,4 +40,5 @@ public class NeuralService {
         fos.write(response);
         fos.close();
     }
+
 }

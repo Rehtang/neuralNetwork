@@ -13,7 +13,6 @@ import java.io.IOException;
 @RestController
 @RequiredArgsConstructor
 public class NeuralRestController {
-    private final UnsplashFeignClient client;
     private final NeuralService service;
 
     @GetMapping("/getPhoto")

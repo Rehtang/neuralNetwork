@@ -17,9 +17,5 @@ public class ImageDto {
 
     @JsonProperty("urls")
     private UrlsDto urls;
-
-
-
-
 }
 
